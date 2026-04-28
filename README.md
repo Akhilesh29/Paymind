@@ -40,23 +40,3 @@ start the development server with hot module reloading:
 npm run dev
 ```
 
-the application will start on http://localhost:5173 by default.
-
-to build the project for production:
-
-```
-npm run build
-```
-
-to preview the production build locally:
-
-```
-npm run preview
-```
-
-to check code quality with eslint:
-
-```
-npm run lint
-```
-
