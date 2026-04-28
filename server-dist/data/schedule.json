@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "cadence": "weekly",
+  "dayOfWeek": "Monday",
+  "runAt": "09:00 IST",
+  "lastRunAt": null,
+  "nextRunAt": "2026-05-05T06:54:02.148Z"
+}

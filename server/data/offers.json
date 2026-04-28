@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "updatedAt": "2026-04-27T11:19:29.057Z"
+  },
+  "categories": [
+    {
+      "id": "recharge",
+      "name": "mobile recharge",
+      "icon": "📱"
+    },
+    {
+      "id": "electricity",
+      "name": "electricity",
+      "icon": "⚡"
+    },
+    {
+      "id": "shopping",
+      "name": "shopping",
+      "icon": "🛍️"
+    },
+    {
+      "id": "food",
+      "name": "food",
+      "icon": "🍔"
+    },
+    {
+      "id": "travel",
+      "name": "travel",
+      "icon": "✈️"
+    },
+    {
+      "id": "movies",
+      "name": "movies",
+      "icon": "🎬"
+    },
+    {
+      "id": "gas",
+      "name": "gas / lpg",
+      "icon": "🔥"
+    },
+    {
+      "id": "water",
+      "name": "water bill",
+      "icon": "💧"
+    },
+    {
+      "id": "dth",
+      "name": "dth",
+      "icon": "📡"
+    },
+    {
+      "id": "insurance",
+      "name": "insurance",
+      "icon": "🛡️"
+    }
+  ],
+  "apps": [
+    {
+      "id": "gpay",
+      "name": "google pay",
+      "short": "gpay",
+      "colors": {
+        "bg": "#1A73E8",
+        "text": "#fff"
+      },
+      "url": "https://pay.google.com/gp/p/ui/pay",
+      "upi": "tez://upi/pay",
+      "cashback": {
+        "recharge": {
+          "pct": 5,
+          "max": 50,
+          "label": "scratch card up to ₹50",
+          "type": "scratch"
+        },
+        "electricity": {
+          "flat": 150,
+          "label": "up to ₹150 cashback",
+          "type": "cashback"
+        },
+        "shopping": {
+          "pct": 3,
+          "max": 200,
+          "label": "up to 3% via gpay offers",
+          "type": "cashback"
+        },
+        "food": {
+          "pct": 10,
+          "max": 100,
+          "label": "up to 10% on select restaurants",
+          "type": "cashback"
+        },
+        "travel": {
+          "flat": 200,
+          "label": "up to ₹200 on irctc/trains",
+          "type": "cashback"
+        },
+        "movies": {
+          "pct": 10,
+          "max": 150,
+          "label": "up to 10% on bookmyshow",
+          "type": "cashback"
+        },
+        "gas": {
+          "flat": 50,
+          "label": "up to ₹50 on lpg booking",
+          "type": "cashback"
+        },
+        "water": {
+          "flat": 30,
+          "label": "up to ₹30 cashback",
+          "type": "cashback"
+        },
+        "dth": {
+          "pct": 5,
+          "max": 40,
+          "label": "up to 5% on dth recharge",
+          "type": "cashback"
+        },
+        "insurance": {
+          "pct": 2,
+          "max": 500,
+          "label": "up to 2% cashback",
+          "type": "cashback"
+        }
+      }
+    },
+    {
+      "id": "phonepe",
+      "name": "phonepe",
+      "short": "phonepe",
+      "colors": {
+        "bg": "#5F259F",
+        "text": "#fff"
+      },
+      "url": "https://phon.pe/",
+      "upi": "phonepe://pay",
+      "cashback": {
+        "recharge": {
+          "pct": 5,
+          "max": 50,
+          "label": "supercoins + up to ₹50",
+          "type": "coins"
+        },
+        "electricity": {
+          "flat": 100,
+          "label": "up to ₹100 cashback",
+          "type": "cashback"
+        },
+        "shopping": {
+          "pct": 10,
+          "max": 300,
+          "label": "up to 10% via phonepe offers",
+          "type": "cashback"
+        },
+        "food": {
+          "pct": 20,
+          "max": 150,
+          "label": "up to 20% on select outlets",
+          "type": "cashback"
+        },
+        "travel": {
+          "flat": 250,
+          "label": "up to ₹250 on flights & hotels",
+          "type": "cashback"
+        },
+        "movies": {
+          "pct": 15,
+          "max": 200,
+          "label": "up to 15% on movies",
+          "type": "cashback"
+        },
+        "gas": {
+          "flat": 75,
+          "label": "up to ₹75 on lpg",
+          "type": "cashback"
+        },
+        "water": {
+          "flat": 40,
+          "label": "up to ₹40 cashback",
+          "type": "cashback"
+        },
+        "dth": {
+          "pct": 5,
+          "max": 50,
+          "label": "up to 5% on dth",
+          "type": "cashback"
+        },
+        "insurance": {
+          "pct": 3,
+          "max": 600,
+          "label": "up to 3% + supercoins",
+          "type": "cashback"
+        }
+      }
+    },
+    {
+      "id": "paytm",
+      "name": "paytm",
+      "short": "paytm",
+      "colors": {
+        "bg": "#00B9F1",
+        "text": "#fff"
+      },
+      "url": "https://paytm.com/",
+      "upi": "paytmmp://pay",
+      "cashback": {
+        "recharge": {
+          "pct": 10,
+          "max": 100,
+          "label": "up to 10% paytm cash",
+          "type": "cashback"
+        },
+        "electricity": {
+          "flat": 75,
+          "label": "up to ₹75 paytm cash",
+          "type": "cashback"
+        },
+        "shopping": {
+          "pct": 10,
+          "max": 500,
+          "label": "up to 10% paytm cashback",
+          "type": "cashback"
+        },
+        "food": {
+          "pct": 20,
+          "max": 200,
+          "label": "up to 20% on zomato via paytm",
+          "type": "cashback"
+        },
+        "travel": {
+          "flat": 300,
+          "label": "up to ₹300 on flights/hotels",
+          "type": "cashback"
+        },
+        "movies": {
+          "flat": 150,
+          "label": "up to ₹150 on movies",
+          "type": "cashback"
+        },
+        "gas": {
+          "flat": 100,
+          "label": "up to ₹100 on lpg",
+          "type": "cashback"
+        },
+        "water": {
+          "flat": 50,
+          "label": "up to ₹50 cashback",
+          "type": "cashback"
+        },
+        "dth": {
+          "pct": 8,
+          "max": 60,
+          "label": "up to 8% on dth",
+          "type": "cashback"
+        },
+        "insurance": {
+          "pct": 2,
+          "max": 400,
+          "label": "up to 2% paytm cash",
+          "type": "cashback"
+        }
+      }
+    },
+    {
+      "id": "amazonpay",
+      "name": "amazon pay",
+      "short": "amazonpay",
+      "colors": {
+        "bg": "#FF9900",
+        "text": "#fff"
+      },
+      "url": "https://www.amazon.in/pay",
+      "upi": "https://www.amazon.in/pay",
+      "cashback": {
+        "recharge": {
+          "pct": 3,
+          "max": 30,
+          "label": "up to 3% amazon pay balance",
+          "type": "cashback"
+        },
+        "electricity": {
+          "flat": 75,
+          "label": "up to ₹75 pay balance",
+          "type": "cashback"
+        },
+        "shopping": {
+          "pct": 5,
+          "max": 400,
+          "label": "5% on amazon, 2% elsewhere",
+          "type": "cashback"
+        },
+        "food": {
+          "pct": 5,
+          "max": 100,
+          "label": "5% at select restaurants",
+          "type": "cashback"
+        },
+        "travel": {
+          "pct": 5,
+          "max": 250,
+          "label": "up to 5% on travel bookings",
+          "type": "cashback"
+        },
+        "movies": {
+          "pct": 10,
+          "max": 100,
+          "label": "up to 10% on pvr/inox",
+          "type": "cashback"
+        },
+        "gas": {
+          "flat": 30,
+          "label": "up to ₹30 cashback",
+          "type": "cashback"
+        },
+        "water": {
+          "flat": 25,
+          "label": "up to ₹25 cashback",
+          "type": "cashback"
+        },
+        "dth": {
+          "pct": 3,
+          "max": 30,
+          "label": "up to 3% balance",
+          "type": "cashback"
+        },
+        "insurance": {
+          "pct": 2,
+          "max": 300,
+          "label": "2% amazon pay balance",
+          "type": "cashback"
+        }
+      }
+    },
+    {
+      "id": "cred",
+      "name": "cred upi",
+      "short": "cred",
+      "colors": {
+        "bg": "#1C1C1C",
+        "text": "#fff"
+      },
+      "url": "https://cred.club/",
+      "upi": "https://cred.club/",
+      "cashback": {
+        "recharge": {
+          "pct": 1,
+          "max": 20,
+          "label": "1% cred coins",
+          "type": "coins"
+        },
+        "electricity": {
+          "flat": 0,
+          "label": "cred coins on payment",
+          "type": "coins"
+        },
+        "shopping": {
+          "pct": 2,
+          "max": 200,
+          "label": "2% cred coins + offers",
+          "type": "coins"
+        },
+        "food": {
+          "pct": 2,
+          "max": 100,
+          "label": "2% cred coins",
+          "type": "coins"
+        },
+        "travel": {
+          "flat": 0,
+          "label": "cred travel perks",
+          "type": "coins"
+        },
+        "movies": {
+          "pct": 5,
+          "max": 150,
+          "label": "5% cred coins on bookmyshow",
+          "type": "coins"
+        },
+        "gas": {
+          "flat": 0,
+          "label": "cred coins",
+          "type": "coins"
+        },
+        "water": {
+          "flat": 0,
+          "label": "cred coins",
+          "type": "coins"
+        },
+        "dth": {
+          "pct": 1,
+          "max": 20,
+          "label": "1% cred coins",
+          "type": "coins"
+        },
+        "insurance": {
+          "pct": 3,
+          "max": 800,
+          "label": "3% cred coins (credit card bills)",
+          "type": "coins"
+        }
+      }
+    },
+    {
+      "id": "bhim",
+      "name": "bhim upi",
+      "short": "bhim",
+      "colors": {
+        "bg": "#4C66A4",
+        "text": "#fff"
+      },
+      "url": "https://www.bhimupi.org.in/",
+      "upi": "upi://pay",
+      "cashback": {
+        "recharge": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "electricity": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "shopping": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "food": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "travel": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "movies": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "gas": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "water": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "dth": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        },
+        "insurance": {
+          "flat": 0,
+          "label": "no cashback — direct upi",
+          "type": "none"
+        }
+      }
+    }
+  ]
+}

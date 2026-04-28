@@ -1,0 +1,26 @@
+[
+  {
+    "id": "77ddbd73-433b-4250-ab8c-f3c1cb5254d4",
+    "actorType": "system",
+    "actorId": "9876543210",
+    "action": "otp.requested",
+    "detail": "OTP requested for 9876543210",
+    "createdAt": "2026-04-28T06:59:13.650Z"
+  },
+  {
+    "id": "bbb38fc7-e8dd-4d2b-98c5-2477de2510dc",
+    "actorType": "user",
+    "actorId": "f1156465-51c6-48ee-b4bb-4ac1c2e41f86",
+    "action": "auth.verified",
+    "detail": "OTP verified for 9166252929",
+    "createdAt": "2026-04-28T06:58:25.450Z"
+  },
+  {
+    "id": "4537cd99-49d3-4ac4-abbb-edcbeded689d",
+    "actorType": "system",
+    "actorId": "9166252929",
+    "action": "otp.requested",
+    "detail": "OTP requested for 9166252929",
+    "createdAt": "2026-04-28T06:57:45.405Z"
+  }
+]
