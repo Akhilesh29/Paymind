@@ -20,7 +20,7 @@ the entire interface is fully responsive and optimized for mobile browsers, ensu
 
 ## technology stack
 
-built with react 19 and typescript for type safety. vite provides rapid development and optimized production builds. no external ui libraries are used, keeping the codebase lightweight and highly customizable.
+built with react 19 and typescript for type safety. 
 
 ## setup and installation
 
@@ -60,43 +60,3 @@ to check code quality with eslint:
 npm run lint
 ```
 
-## project structure
-
-src/components contains reusable react components including category selector, quick amount buttons, and offer table.
-
-src/data holds the centralized offer data with all categories, upi apps, and cashback offers.
-
-src/app.tsx serves as the main application component managing state and filtering logic.
-
-src/app.css contains all component-specific styling with responsive design patterns.
-
-src/index.css provides global styles and css variables.
-
-## future enhancements
-
-plans include integrating a backend api to fetch live offer data from partner upi apps. user accounts will enable tracking of payment history and total cashback earned. a progressive web app implementation will allow users to install the app on their home screen like a native app.
-
-an admin panel will be developed for managing and updating cashback offers weekly. analytics features will track popular categories and monitor user engagement with different offers.
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
